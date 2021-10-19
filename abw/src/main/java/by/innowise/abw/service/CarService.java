@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+
 public interface CarService {
     List<Car> findAllCar();
 
@@ -15,4 +15,8 @@ public interface CarService {
     void addCar(AddCarRequest addCarRequest);
 
     List<Car> findAllCarByPrice(AddCarRequest addCarRequest);
+
+    void removeAd(AddCarRequest addCarRequest);
+
+    List<String> findAllBrands();
 }

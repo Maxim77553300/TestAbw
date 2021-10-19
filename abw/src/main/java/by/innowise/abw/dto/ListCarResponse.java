@@ -6,13 +6,13 @@ import java.util.List;
 
 public class ListCarResponse {
 
-    List<Car> listCars;
+    List<Car> listCar;
 
-    public List<Car> getListCars() {
-        return listCars;
+    public List<Car> getListCar() {
+        return listCar;
     }
 
-    public void setListCars(List<Car> listCars) {
-        this.listCars = listCars;
+    public void setListCar(List<Car> listCar) {
+        this.listCar = listCar;
     }
 }
