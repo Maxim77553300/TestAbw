@@ -16,6 +16,7 @@ public class Car {
     @Column(name = "price")
     private Integer price;
 
+    public Long getId() {
         return id;
     }
 
